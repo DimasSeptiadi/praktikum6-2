@@ -1,7 +1,7 @@
 #include<LiquidCrystal.h>
 
 LiquidCrystal lcd(2,3,4,5,6,7);
-unsigned int jam=14,menit=41,detik=00;
+unsigned int jam,menit,detik;
 boolean led =0;
 ISR(TIMER1_OVF_vect)
 {
